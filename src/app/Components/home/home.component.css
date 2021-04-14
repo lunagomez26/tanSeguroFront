@@ -1,0 +1,52 @@
+/* .headerindex{   
+    background: url(src/assets/img/background.jpg) no-repeat ;
+    background-size: cover ;
+} */
+.tit-nav{
+    color: black;
+font-size: 40px;
+padding-top: 3%;
+margin-left: 4%;
+}
+.tit-text{
+    font-size: 20px;
+    color: black;
+    padding-top: 3%;
+    margin-left: 4%;
+    text-align: justify;
+}
+.btn-cotizar{
+    background-color: gray;
+    display: flex;
+    justify-items: end;
+    color: black;
+}
+.a-btn{
+    font-size: 40px;
+    color: black;
+}
+.cont-info-best, .cont-video, .cont-allies{
+    background-color: gainsboro;
+}
+.tit-info1{
+    font-size: 50px !important;
+}
+.tit-info2{
+    font-size: 35px !important;
+}
+.p-info1{
+    font-size: 20px;
+}
+.tit-help{
+    font-size: 40px;
+}
+.btn-help{
+    font-size: 20px;
+}
+.img-video{
+    width: 500px;
+    margin-left: 420px !important;
+}
+h5{
+    font-size: 25px;
+}

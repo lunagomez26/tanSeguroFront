@@ -1,0 +1,19 @@
+.cont-links{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+.cont-social{
+    display:flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cont-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+}
