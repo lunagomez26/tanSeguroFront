@@ -11,6 +11,11 @@ import { ContactComponent } from './Components/contact/contact.component';
 import { HomeComponent } from './Components/home/home.component';
 import { HogarDeudorComponent } from './Components/hogar-deudor/hogar-deudor.component';
 import { HogarDeudorOfertaComponent } from './Components/hogar-deudor-oferta/hogar-deudor-oferta.component';
+import { HogarDeudorOfertaAceptadaComponent } from './Components/hogar-deudor-oferta-aceptada/hogar-deudor-oferta-aceptada.component';
+import { CheckoutComponent } from './Components/checkout/checkout.component';
+import { SignUpComponent } from './Components/sign-up/sign-up.component';
+import { SignInComponent } from './Components/sign-in/sign-in.component';
+import { InnerHomeComponent } from './Components/inner-home/inner-home.component';
 
 const routesApp: Routes =[
   {path: '', component: HomeComponent },
@@ -18,7 +23,9 @@ const routesApp: Routes =[
   {path: 'pqrs', component:PqrsComponent},
   {path: 'contact', component:ContactComponent},
   {path: 'hogarDeudor', component: HogarDeudorComponent},
-  {path: 'hogarDeudorOferta', component: HogarDeudorOfertaComponent}
+  {path: 'hogarDeudorOferta', component: HogarDeudorOfertaComponent},
+  {path: 'ofertaAceptada', component: HogarDeudorOfertaAceptadaComponent},
+
 ]
 
 @NgModule({
@@ -31,7 +38,12 @@ const routesApp: Routes =[
     ContactComponent,
     HomeComponent,
     HogarDeudorComponent,
-    HogarDeudorOfertaComponent
+    HogarDeudorOfertaComponent,
+    HogarDeudorOfertaAceptadaComponent,
+    CheckoutComponent,
+    SignUpComponent,
+    SignInComponent,
+    InnerHomeComponent
   ],
   imports: [
     BrowserModule,
